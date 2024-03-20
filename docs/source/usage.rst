@@ -6,29 +6,26 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use VueQueue, it is as easy as installing the application on your phone, and registering a new account!
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install VueQueue
 
-Creating recipes
+Joining Queues
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To join a queue, scan the QR code provided by an organisation that supports VueQueue:
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+The ``QR`` code should be either ``valid`` or ``invalid``,
+. If it is invalid, the application will throw an error message informing 
+the user about the situation.
 
 .. autoexception:: lumache.InvalidKindError
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> Launch Application
+>>> Scan QR Code
+>>> Join Queue
 
