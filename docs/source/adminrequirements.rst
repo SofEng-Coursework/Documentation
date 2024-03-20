@@ -1,5 +1,5 @@
-Admin Side
-===========
+Admin Requirements
+==================
 
 Queue Management - Admin Queue Controller
 ------------------------------------------------

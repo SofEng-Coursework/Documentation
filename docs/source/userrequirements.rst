@@ -1,9 +1,6 @@
 User Requirements
 =================
 
-User Side
----------
-
 Queue Management - User Queue Controller
 ---------------------------------------------
 
