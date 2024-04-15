@@ -1,7 +1,7 @@
 Admin Requirements
 ==================
 
-Queue Management - Admin Queue Controller
+Queue Management
 ------------------------------------------------
 
 The user should be able to add, remove and reposition people in the queue.
@@ -9,7 +9,7 @@ The user should be able to create and delete queues, to accommodate multi-queue 
 The user should be able to open and close different queues.
 The user should be able to manage the queues from both a web and a mobile interface.
 
-Data Insights - Admin Data Controller
+Data Insights
 ------------------------------------------------
 
 The user should be able to view queue data, such as historical wait times, peak hours and the average, minimum and maximum queue size.

@@ -1,20 +1,20 @@
 User Requirements
 =================
 
-Queue Management - User Queue Controller
+Queue Management
 ---------------------------------------------
 
 The user should be able to join or leave a queue at any time.
 The user should be able to join a queue by scanning a QR code, scanning an NFC tag or remotely through the app.
 The user should be able to view their position in the queue and estimated wait time to manage their time more efficiently.
 
-Real-Time Notifications - Notification Service
+Real-Time Notifications
 ----------------------------------------------
 
 The user should receive update notifications about their queue status without constantly checking the app.
 The user may be notified either by text message, app notification or email, depending on their selected preference.
 
-User Experience - User Controllers and User GUI
+User Experience
 -----------------------------------------------
 
 The contents of the app should be displayed using simple sentences.
@@ -22,7 +22,7 @@ The user should be able to submit optional feedback after a queueing service.
 The user should be able to toggle whether to remain anonymous when submitting feedback.
 The user should be able to customise their app interface.
 
-Account Management - User Account Controller
+Account Management
 -----------------------------------------------
 
 The user should be able to sign up using their email address as the primary method, as it’s more secure and manageable.
@@ -35,7 +35,7 @@ The user should be able to delete their account at any moment, in case they want
 Admin Requirements
 ==================
 
-Queue Management - Admin Queue Controller
+Queue Management
 ------------------------------------------------
 
 The user should be able to add, remove and reposition people in the queue.
@@ -43,7 +43,7 @@ The user should be able to create and delete queues, to accommodate multi-queue 
 The user should be able to open and close different queues.
 The user should be able to manage the queues from both a web and a mobile interface.
 
-Data Insights - Admin Data Controller
+Data Insights
 ------------------------------------------------
 
 The user should be able to view queue data, such as historical wait times, peak hours and the average, minimum and maximum queue size.
