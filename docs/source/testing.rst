@@ -22,7 +22,7 @@ Install Firebase CLI:
 ----------------------
 Install Firebase CLI using npm or another package manager.
 Authenticate Firebase CLI with your Firebase account.
------------------------------
+
 
 Prepare Application Codebase:
 --------------------------------
