@@ -9,7 +9,9 @@ The packages on't have the same level of validation that we want.
 
 Impact:
 -------
-Testing Delays: The compatibility issues resulted in delays in the testing process, prolonging the time required to validate the application's functionality.
+Testing Delays: 
+
+The compatibility issues resulted in delays in the testing process, prolonging the time required to validate the application's functionality.
 Decreased Productivity: Developers spent additional time troubleshooting compatibility issues instead of focusing on writing and executing test cases.
 Risk of Unreliable Results: Inaccurate test results due to compatibility issues raised concerns about the reliability of the testing process and the application's overall quality.
 
@@ -20,9 +22,12 @@ The testing packages were not a good fit for our application because they might 
 Resolution Steps:
 -----------------
 Testing Environment Setup:
+
 Standardize the testing environment across development machines to minimize platform-specific differences that could affect compatibility.
 Consider using continuous integration pipelines to automate the testing process in a controlled and consistent environment.
+
 Community Support:
+
 Seek assistance from the Flutter and Firebase developer communities to identify common compatibility issues and potential workarounds or solutions.
 Contribute to open-source projects and provide feedback to help improve the compatibility and reliability of Firebase testing packages for Flutter applications.
 
