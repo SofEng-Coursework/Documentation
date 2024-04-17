@@ -35,7 +35,7 @@ Define comprehensive test cases covering various functionalities of the applicat
 Test cases should encompass both positive and negative scenarios to validate the application's behavior thoroughly.
 
 Integrate Firebase Test Packages:
---------------------------------------------------------------------
+-----------------------------------
 Add Firebase test dependencies to the project configuration.
 Update the build configuration to include Firebase test services using **Firebase Auth** and **Cloud Firestore**.
 
@@ -62,4 +62,7 @@ Document the test results, including successful tests and identified issues.
 Provide detailed insights into the application's behavior under test conditions.
 Include recommendations for improving the application based on test findings.
 
-Testing with Firebase test packages offers developers a robust framework for validating their applications' functionality and performance. By following the outlined procedure and leveraging Firebase's testing capabilities, developers can ensure the reliability and quality of their applications before deployment. Regular testing using Firebase helps maintain application stability and enhances the overall user experience.------------------------------------------------------------------------------------------------------------------------------------
+Testing with Firebase test packages offers developers a robust framework for validating their applications' 
+functionality and performance. By following the outlined procedure and leveraging Firebase's testing capabilities, developers can 
+ensure the reliability and quality of their applications before deployment. Regular testing using Firebase helps maintain application 
+stability and enhances the overall user experience.
