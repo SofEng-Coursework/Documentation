@@ -22,3 +22,5 @@ Contents
    scope
    userrequirements
    adminreqirements
+   problems
+   testing
