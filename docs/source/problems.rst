@@ -21,7 +21,7 @@ Resolution Steps:
 -----------------
 Testing Environment Setup:
 Standardize the testing environment across development machines to minimize platform-specific differences that could affect compatibility.
-Consider using continuous integration (CI) pipelines to automate the testing process in a controlled and consistent environment.
+Consider using continuous integration pipelines to automate the testing process in a controlled and consistent environment.
 Community Support:
 Seek assistance from the Flutter and Firebase developer communities to identify common compatibility issues and potential workarounds or solutions.
 Contribute to open-source projects and provide feedback to help improve the compatibility and reliability of Firebase testing packages for Flutter applications.
