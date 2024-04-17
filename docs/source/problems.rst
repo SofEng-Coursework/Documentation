@@ -12,7 +12,7 @@ Impact:
 Testing Delays: 
 
 The compatibility issues resulted in delays in the testing process, prolonging the time required to validate the application's functionality.
-Decreased Productivity: Developers spent additional time troubleshooting compatibility issues instead of focusing on writing and executing test cases.
+Developers spent additional time troubleshooting compatibility issues instead of focusing on writing and executing test cases.
 Risk of Unreliable Results: Inaccurate test results due to compatibility issues raised concerns about the reliability of the testing process and the application's overall quality.
 
 Root Cause Analysis:
