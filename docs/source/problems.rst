@@ -90,3 +90,60 @@ to a more comprehensive and user-friendly platform experience.
 By actively soliciting user feedback and conducting thorough usability testing, developers can ensure that important features 
 like notification management are not overlooked during the design and development process.
 
+Issue Discription, Issue 3:
+----------------------------
+Submitting feedback without providing any input results in the creation of blank entries in the system.
+
+Impact:
+--------
+User Experience:
+
+Users may inadvertently submit blank feedback, leading to confusion or frustration when reviewing feedback entries.
+Blank entries clutter the feedback collection, making it difficult to discern meaningful feedback from empty submissions.
+
+Data Integrity:
+
+Blank entries distort the accuracy of feedback analysis and reporting, potentially skewing insights derived from the feedback data.
+
+System Efficiency:
+
+Processing and storing blank feedback entries consume system resources unnecessarily, impacting system performance and scalability.
+
+Root Cause Analysis:
+---------------------
+Lack of Form Validation:
+
+The absence of form validation logic allows users to submit feedback without any input, resulting in blank entries.
+
+Oversight in User Input Handling:
+
+Incomplete handling of user input during the feedback submission process fails to account for empty submissions.
+
+Resolution Steps:
+------------------
+Implement Form Validation:
+
+Introduce form validation logic to the feedback submission form to ensure that users cannot submit feedback without providing input.
+
+Provide User Guidance:
+
+Clearly communicate to users that feedback must be provided before submission through instructional prompts or error messages.
+
+Validate Feedback Content:
+
+Before saving a feedback submission, check for the presence of feedback content to prevent the creation of blank entries.
+
+Enhance User Interface:
+
+Improve the user interface design to guide users and encourage meaningful feedback submission, reducing the likelihood of empty entries.
+
+Test and Iterate:
+
+Conduct usability testing to evaluate the effectiveness of the implemented form validation and user guidance.
+Iterate on the feedback submission process based on user feedback and testing results to refine the user experience and ensure the 
+prevention of blank submissions.
+
+By implementing form validation and enhancing the user interface to guide users in providing meaningful feedback, 
+the system can prevent the creation of blank entries and maintain the integrity and usability of the feedback collection process.
+
+
