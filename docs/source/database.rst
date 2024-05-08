@@ -1,5 +1,7 @@
+Database
+=========
 FirebaseProvider
-=================
+-----------------
 Properties
 -----------
 FIREBASE_APP: FirebaseApp

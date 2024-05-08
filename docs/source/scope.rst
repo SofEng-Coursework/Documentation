@@ -1,5 +1,5 @@
-This is the wide scope of QueueVue:
-===================================
+Scope
+======
 
 User Registration and Authentication:
 -------------------------------------

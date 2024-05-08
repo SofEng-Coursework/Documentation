@@ -1,4 +1,4 @@
-Problems
+Issues
 =========
 
 This documentation addresses the compatibility issues encountered while using Firebase Auth and Cloud Firestore testing 
@@ -7,7 +7,7 @@ Testing is a crucial phase in software development, ensuring the reliability and
 However, compatibility issues can arise, causing delays and hindering the testing process.
 
 Issue Description, Issue 1:
-============================
+----------------------------
 The packages on't have the same level of validation that we want.
 
 Impact:
@@ -41,7 +41,7 @@ documentation are essential for addressing compatibility issues effectively and 
 
 
 Issue Description, Issue 2:
-============================
+-----------------------------
 The user dashboard did not include a dedicated toggle notifications switch.
 
 Impact:
@@ -94,7 +94,7 @@ By actively soliciting user feedback and conducting thorough usability testing, 
 like notification management are not overlooked during the design and development process.
 
 Issue Discription, Issue 3:
-============================
+----------------------------
 Submitting feedback without providing any input results in the creation of blank entries in the system.
 
 Impact:
@@ -150,8 +150,7 @@ By implementing form validation and enhancing the user interface to guide users 
 the system can prevent the creation of blank entries and maintain the integrity and usability of the feedback collection process.
 
 Issue Description, Issue 4:
-============================
-
+-----------------------------
 The application experiences intermittent connectivity issues when accessing external APIs.
 
 Impact:
@@ -213,7 +212,7 @@ developers can mitigate the impact of intermittent connectivity issues and impro
 application when interacting with external APIs.
 
 Issue Description, Issue 5:
-============================
+----------------------------
 
 The application's search functionality returns irrelevant or inaccurate results, impairing user experience and utility.
 

@@ -1,5 +1,5 @@
-Welcome to the VueQueue documentation.
-===================================
+VueQueue Documentation
+=======================
 
 **VueQueue** (/View Queue/) is an application offering virtual queueing solutions and 
 making your life much, much easier.
@@ -21,6 +21,7 @@ Contents
    usage
    scope
    userrequirements
-   adminreqirements
+   adminrequirements
    problems
    testing
+   database
