@@ -15,10 +15,10 @@ To use VueQueue, it is as easy as installing the application on your phone, and 
 Joining Queues
 ----------------
 
-To join a queue, scan the QR code provided by an organisation that supports VueQueue:
+To join a queue, log into the application and join a queue provided by an organisation that supports VueQueue:
 
-The ``QR`` code should be either ``valid`` or ``invalid``,
-. If it is invalid, the application will throw an error message informing 
+The ``Queue`` should be either ``active`` or ``inactive``.
+If it is inactive, the application will throw an error message informing 
 the user about the situation.
 
 .. autoexception:: lumache.InvalidKindError
@@ -26,6 +26,7 @@ the user about the situation.
 For example:
 
 >>> Launch Application
->>> Scan QR Code
+>>> Find the desired Queue
+>>> Press the button
 >>> Join Queue
 

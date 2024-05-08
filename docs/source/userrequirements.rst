@@ -5,14 +5,8 @@ Queue Management
 ---------------------------------------------
 
 The user should be able to join or leave a queue at any time.
-The user should be able to join a queue by scanning a QR code, scanning an NFC tag or remotely through the app.
+The user should be able to join a queue by pressing a button, through the app.
 The user should be able to view their position in the queue and estimated wait time to manage their time more efficiently.
-
-Real-Time Notifications
-----------------------------------------------
-
-The user should receive update notifications about their queue status without constantly checking the app.
-The user may be notified either by text message, app notification or email, depending on their selected preference.
 
 User Experience
 -----------------------------------------------

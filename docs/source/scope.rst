@@ -15,12 +15,6 @@ Support multiple queues for different services or locations.
 Allow users to view estimated wait times for each queue.
 Provide options for users to leave or cancel their queue positions.
 
-Notifications:
---------------
-
-Send notifications to users regarding their queue status, estimated wait times, or when it's their turn.
-Support various notification channels such as push notifications, SMS, or email.
-
 Real-time Monitoring:
 ---------------------
 
