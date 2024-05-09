@@ -6,57 +6,49 @@ This documentation outlines the procedure for testing an application using Fireb
 
 The primary objective of this documentation is to guide the testing process using Firebase test packages. By leveraging Firebase's testing capabilities, developers can thoroughly evaluate their application's behavior under various conditions and scenarios.
 
-Tools Required:
-----------------
-Firebase project with Test Lab enabled.
+**Tools Required:**
+
+Firebase project with fake_cloud_firestore and firebase_auth_mocks packages.
 Firebase CLI (Command Line Interface).
 Application codebase.
 Test cases.
 
-Setup Firebase Project:
+Setup Firebase Project
 ------------------------
 Create or use an existing Firebase project.
-Ensure Test Lab is enabled in the Firebase project settings.
 
-Install Firebase CLI:
+Install Firebase CLI
 ----------------------
 Install Firebase CLI using npm or another package manager.
 Authenticate Firebase CLI with your Firebase account.
 
-
-Prepare Application Codebase:
+Prepare Application Codebase
 --------------------------------
 Ensure the application codebase is ready for testing.
 Include necessary dependencies for integrating Firebase testing.
 
-Write Test Cases:
+Write Test Cases
 -----------------
 Define comprehensive test cases covering various functionalities of the application.
 Test cases should encompass both positive and negative scenarios to validate the application's behavior thoroughly.
 
-Integrate Firebase Test Packages:
+Integrate Firebase Test Packages
 -----------------------------------
 Add Firebase test dependencies to the project configuration.
 Update the build configuration to include Firebase test services using **Firebase Auth** and **Cloud Firestore**.
 
-Run Tests Locally:
+Run Tests Locally
 ---------------------
 Execute the test suite locally using Firebase CLI.
 Review test results and debug any failures.
 
-Run Tests on Firebase Test Lab:
----------------------------------
-Upload the application and test cases to Firebase Test Lab.
-Configure device models, OS versions, and other testing parameters.
-Initiate the test run on Firebase Test Lab.
-
-Analyze Test Results:
+Analyze Test Results
 -----------------------
 Monitor the test execution progress on Firebase Test Lab dashboard.
 Analyze test results, including pass/fail status, performance metrics, and logs.
 Investigate any failures and address them in the application codebase.
 
-Document Results:
+Document Results
 --------------------
 Document the test results, including successful tests and identified issues.
 Provide detailed insights into the application's behavior under test conditions.

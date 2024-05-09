@@ -1,5 +1,5 @@
-Controllers
-============
+API Reference
+==============
 FirebaseProvider
 -----------------
 **Properties:**
@@ -207,6 +207,163 @@ updateAccount({String? name, String? phone}): Future<ErrorStatus>
 
 getHistory(): Future<List<Map<String, dynamic>>>
   Gathers all past instances of the user accessing queues to be displayed on the history page. Returns a list of maps containing queue history data.
+
+ErrorStatus
+------------
+
+**Properties:**
+
+success: bool
+  Indicates whether the operation was successful. Returns true for success and false for failure.
+
+message: String?
+  An optional message providing additional details about the error status. Returns null if no message is provided.
+
+**Constructor:**
+
+ErrorStatus({required bool success, String? message})
+  Initializes an ErrorStatus instance. The success parameter is required to specify the outcome of the operation. 
+  The message parameter is optional and used to provide more details about the error if available.
+  
+FeedbackEntry
+---------------
+
+**Properties:**
+
+userId: String
+  Unique identifier for the user providing feedback.
+
+name: String
+  The name of the user providing feedback.
+
+comments: String
+  Textual comments provided by the user.
+
+rating: int
+  Numerical rating provided by the user, typically on a predefined scale (e.g., 1 to 5).
+
+timestamp: int
+  Timestamp in milliseconds since the epoch when the feedback entry was created. 
+  This is set automatically to the current time when the entry is created.
+
+**Constructor:**
+
+FeedbackEntry({required String userId, required String name, required String comments, required int rating})
+  Initializes a new instance of FeedbackEntry with the specified user ID, name, comments, and rating. 
+  The timestamp is automatically set to the current time.
+
+**Factory Constructor:**
+
+FeedbackEntry.fromJson(Map<String, dynamic> json)
+  Factory constructor that creates an instance of FeedbackEntry from a JSON object. 
+  The JSON object must contain keys for 'userId', 'name', 'comments', and 'rating', each with appropriate values.
+
+**Methods:**
+
+toJson(): Map<String, dynamic>
+  Converts a FeedbackEntry instance into a JSON map. The resulting map includes keys for 'userId', 'name', 'comments', 'rating', and 'timestamp', 
+  corresponding to the properties of the FeedbackEntry.
+
+QueueUserEntry
+---------------
+
+**Properties:**
+
+userId: String
+  The unique identifier for the user in the queue.
+
+name: String?
+  The optional name of the user.
+
+timestamp: int
+  Timestamp marking when the user was added to the queue.
+
+**Constructor:**
+
+QueueUserEntry({required String userId, String? name, required int timestamp})
+  Initializes a new instance of QueueUserEntry with the specified user ID, optional name, and timestamp.
+
+**Factory Constructor:**
+
+QueueUserEntry.fromJson(Map<String, dynamic> json)
+  Creates an instance of QueueUserEntry from a JSON object that includes 'userId', 'name', and 'timestamp'.
+
+**Methods:**
+
+toJson(): Map<String, dynamic>
+  Converts the instance into a JSON map.
+
+QueueLog
+--------
+
+**Properties:**
+
+userId: String
+  The unique identifier for the user associated with this log entry.
+
+start: int
+  Start timestamp for the user's queue entry.
+
+end: int
+  End timestamp for the user's queue exit.
+
+**Constructor:**
+
+QueueLog({required String userId, required int start, required int end})
+  Initializes a new instance of QueueLog with the user ID, start, and end times.
+
+**Factory Constructor:**
+
+QueueLog.fromJson(Map<String, dynamic> json)
+  Creates an instance of QueueLog from a JSON object that includes 'userId', 'start', and 'end'.
+
+**Methods:**
+
+toJson(): Map<String, dynamic>
+  Converts the instance into a JSON map.
+ 
+Queue
+------
+
+**Properties:**
+
+id: String
+  Unique identifier for the queue.
+
+name: String
+  Name of the queue.
+
+open: bool
+  Indicates whether the queue is open.
+
+capacity: int?
+  Optional maximum number of users that can be in the queue.
+
+users: List<QueueUserEntry>
+  List of users currently in the queue.
+
+logs: List<QueueLog>
+  List of logs associated with the queue activities.
+
+**Constructor:**
+
+Queue({required String id, required String name, required bool open, List<QueueUserEntry> users, List<QueueLog> logs, int? capacity})
+  Initializes a new instance of Queue with the specified details.
+
+**Methods:**
+
+isFull(): bool
+  Returns true if the queue is at full capacity, otherwise false.
+
+**Factory Constructor:**
+
+Queue.fromJson(Map<String, dynamic> json)
+  Creates an instance of Queue from a JSON object that includes 'id', 'name', 'open', 'users', 'logs', and optionally 'capacity'.
+
+**Methods:**
+
+toJson(): Map<String, dynamic>
+Converts the instance into a JSON map, including details about users and logs.
 
 
 
