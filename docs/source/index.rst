@@ -24,4 +24,4 @@ Contents
    adminrequirements
    problems
    testing
-   controllers
+   apireference
