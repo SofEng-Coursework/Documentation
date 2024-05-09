@@ -6,11 +6,7 @@ Usage
 Installation
 ------------
 
-To use VueQueue, it is as easy as installing the application on your phone, and registering a new account!
-
-.. code-block:: console
-
-   (.venv) $ pip install VueQueue
+To use VueQueue, it is as easy as installing the application on your phone using the ``Google Play Store`` or the ``Apple App Store``, and registering a new account!
 
 Joining Queues
 ----------------
