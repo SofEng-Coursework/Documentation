@@ -6,30 +6,30 @@ packages in a Flutter application testing environment.
 Testing is a crucial phase in software development, ensuring the reliability and functionality of the application. 
 However, compatibility issues can arise, causing delays and hindering the testing process.
 
-Issue Description, Issue 1:
-----------------------------
+Issue 1
+---------
 The packages on't have the same level of validation that we want.
 
-Impact:
--------
+**Impact:**
+
 Testing Delays: 
 
 The compatibility issues resulted in delays in the testing process, prolonging the time required to validate the application's functionality.
 Developers spent additional time troubleshooting compatibility issues instead of focusing on writing and executing test cases.
 Risk of Unreliable Results: Inaccurate test results due to compatibility issues raised concerns about the reliability of the testing process and the application's overall quality.
 
-Root Cause Analysis:
----------------------
+**Root Cause Analysis:**
+
 The testing packages were not a good fit for our application because they might not provide accurate enough results.
 
-Resolution Steps:
------------------
+**Resolution Steps:**
+
 Testing Environment Setup:
 
 Standardize the testing environment across development machines to minimize platform-specific differences that could affect compatibility.
 Consider using continuous integration pipelines to automate the testing process in a controlled and consistent environment.
 
-Community Support:
+**Community Support:**
 
 Seek assistance from the Flutter and Firebase developer communities to identify common compatibility issues and potential workarounds or solutions.
 Contribute to open-source projects and provide feedback to help improve the compatibility and reliability of Firebase testing packages for Flutter applications.
@@ -40,12 +40,12 @@ issues and ensure a smoother testing process. Collaboration within the developer
 documentation are essential for addressing compatibility issues effectively and improving the overall reliability of testing packages.
 
 
-Issue Description, Issue 2:
------------------------------
+Issue 2
+--------
 The user dashboard did not include a dedicated toggle notifications switch.
 
-Impact:
---------
+**Impact:**
+
 User Experience:
 
 Users may find it inconvenient to manage their notification preferences without a dedicated toggle switch, leading to frustration and 
@@ -61,8 +61,8 @@ Decreased User Control:
 Without an easy-to-use toggle switch, users have limited control over their notification settings, potentially leading to unwanted 
 interruptions or missed notifications.
 
-Root Cause Analysis:
---------------------
+**Root Cause Analysis:**
+
 Design Oversight:
 
 The absence of a dedicated toggle switch for notifications suggests a design oversight during the development of the user dashboard.
@@ -72,8 +72,8 @@ Lack of User Feedback:
 Insufficient user feedback or testing may have led to the oversight of this important feature, 
 indicating a gap in the user feedback collection or implementation process.
 
-Resolution Steps:
------------------
+**Resolution Steps:**
+
 User Feedback Collection:
 
 Gather feedback from users to understand their preferences regarding notification management and prioritize 
@@ -84,7 +84,7 @@ Usability Testing:
 Conduct usability testing sessions with representative users to identify any usability issues or missing features 
 in the user dashboard, including the absence of a notifications toggle switch.
 
-Iterative Design:
+**Iterative Design:**
 
 Implement an iterative design process that incorporates user feedback and usability testing results to 
 continuously improve the user dashboard and address any identified shortcomings.
@@ -93,12 +93,12 @@ to a more comprehensive and user-friendly platform experience.
 By actively soliciting user feedback and conducting thorough usability testing, developers can ensure that important features 
 like notification management are not overlooked during the design and development process.
 
-Issue Discription, Issue 3:
-----------------------------
+Issue 3
+-------
 Submitting feedback without providing any input results in the creation of blank entries in the system.
 
-Impact:
---------
+**Impact**
+
 User Experience:
 
 Users may inadvertently submit blank feedback, leading to confusion or frustration when reviewing feedback entries.
@@ -112,8 +112,8 @@ System Efficiency:
 
 Processing and storing blank feedback entries consume system resources unnecessarily, impacting system performance and scalability.
 
-Root Cause Analysis:
----------------------
+**Root Cause Analysis:**
+
 Lack of Form Validation:
 
 The absence of form validation logic allows users to submit feedback without any input, resulting in blank entries.
@@ -122,8 +122,8 @@ Oversight in User Input Handling:
 
 Incomplete handling of user input during the feedback submission process fails to account for empty submissions.
 
-Resolution Steps:
-------------------
+**Resolution Steps:**
+
 Implement Form Validation:
 
 Introduce form validation logic to the feedback submission form to ensure that users cannot submit feedback without providing input.
@@ -149,12 +149,11 @@ prevention of blank submissions.
 By implementing form validation and enhancing the user interface to guide users in providing meaningful feedback, 
 the system can prevent the creation of blank entries and maintain the integrity and usability of the feedback collection process.
 
-Issue Description, Issue 4:
------------------------------
+Issue 4
+--------
 The application experiences intermittent connectivity issues when accessing external APIs.
 
-Impact:
---------
+**Impact:**
 
 Functional Reliability:
 
@@ -171,8 +170,8 @@ Data Integrity:
 Inconsistent connectivity poses a risk to data integrity, as incomplete or erroneous data retrieval from external APIs may 
 compromise the accuracy and reliability of application data.
 
-Root Cause Analysis:
----------------------
+**Root Cause Analysis:**
+
 
 Network Instability:
 
@@ -184,8 +183,7 @@ Insufficient Error Handling:
 Inadequate error handling mechanisms within the application fail to effectively manage and recover from connectivity disruptions, 
 exacerbating the impact of intermittent issues.
 
-Resolution Steps:
-------------------
+**Resolution Steps:**
 
 Network Resilience Enhancements:
 
@@ -211,13 +209,12 @@ By enhancing network resilience, implementing robust error handling mechanisms, 
 developers can mitigate the impact of intermittent connectivity issues and improve the reliability and user experience of the 
 application when interacting with external APIs.
 
-Issue Description, Issue 5:
-----------------------------
+Issue 5
+---------
 
 The application's search functionality returns irrelevant or inaccurate results, impairing user experience and utility.
 
-Impact:
---------
+**Impact:**
 
 User Frustration:
 
@@ -234,8 +231,7 @@ Decreased Engagement:
 Poor search functionality discourages users from actively engaging with the application, 
 reducing user interaction frequency and session duration, which can negatively impact user retention and overall platform usage metrics.
 
-Root Cause Analysis:
----------------------
+**Root Cause Analysis:**
 
 Inadequate Search Algorithm:
 
@@ -247,8 +243,7 @@ Insufficient Indexing:
 Incomplete or inaccurate indexing of content within the application's database may limit the scope and accuracy of search results, 
 leading to missed opportunities to surface relevant content to users.
 
-Resolution Steps:
-------------------
+**Resolution Steps:**
 
 Algorithm Optimization:
 
