@@ -39,7 +39,7 @@ application development. By understanding the root causes and implementing appro
 issues and ensure a smoother testing process. Collaboration within the developer community and active engagement with Firebase and Flutter 
 documentation are essential for addressing compatibility issues effectively and improving the overall reliability of testing packages.
 
-Issue 3
+Issue 2
 --------
 The application experiences intermittent connectivity issues when accessing external APIs.
 
@@ -99,7 +99,7 @@ By enhancing network resilience, implementing robust error handling mechanisms, 
 developers can mitigate the impact of intermittent connectivity issues and improve the reliability and user experience of the 
 application when interacting with external APIs.
 
-Issue 4
+Issue 3
 ---------
 
 Description:
