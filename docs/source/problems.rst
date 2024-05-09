@@ -39,117 +39,7 @@ application development. By understanding the root causes and implementing appro
 issues and ensure a smoother testing process. Collaboration within the developer community and active engagement with Firebase and Flutter 
 documentation are essential for addressing compatibility issues effectively and improving the overall reliability of testing packages.
 
-
-Issue 2
---------
-The user dashboard did not include a dedicated toggle notifications switch.
-
-**Impact:**
-
-User Experience:
-
-Users may find it inconvenient to manage their notification preferences without a dedicated toggle switch, leading to frustration and 
-potentially reduced engagement with the platform.
-
-Incomplete Feature Set:
-
-The absence of a notifications toggle switch detracts from the completeness of the user dashboard, potentially giving the impression of an 
-unfinished or poorly-designed product.
-
-Decreased User Control:
-
-Without an easy-to-use toggle switch, users have limited control over their notification settings, potentially leading to unwanted 
-interruptions or missed notifications.
-
-**Root Cause Analysis:**
-
-Design Oversight:
-
-The absence of a dedicated toggle switch for notifications suggests a design oversight during the development of the user dashboard.
-
-Lack of User Feedback:
-
-Insufficient user feedback or testing may have led to the oversight of this important feature, 
-indicating a gap in the user feedback collection or implementation process.
-
-**Resolution Steps:**
-
-User Feedback Collection:
-
-Gather feedback from users to understand their preferences regarding notification management and prioritize 
-the implementation of a dedicated toggle switch based on their input.
-
-Usability Testing:
-
-Conduct usability testing sessions with representative users to identify any usability issues or missing features 
-in the user dashboard, including the absence of a notifications toggle switch.
-
-**Iterative Design:**
-
-Implement an iterative design process that incorporates user feedback and usability testing results to 
-continuously improve the user dashboard and address any identified shortcomings.
-Inclusion of a dedicated toggle notifications switch within the user dashboard enhances user control and contributes 
-to a more comprehensive and user-friendly platform experience. 
-By actively soliciting user feedback and conducting thorough usability testing, developers can ensure that important features 
-like notification management are not overlooked during the design and development process.
-
 Issue 3
--------
-Submitting feedback without providing any input results in the creation of blank entries in the system.
-
-**Impact**
-
-User Experience:
-
-Users may inadvertently submit blank feedback, leading to confusion or frustration when reviewing feedback entries.
-Blank entries clutter the feedback collection, making it difficult to discern meaningful feedback from empty submissions.
-
-Data Integrity:
-
-Blank entries distort the accuracy of feedback analysis and reporting, potentially skewing insights derived from the feedback data.
-
-System Efficiency:
-
-Processing and storing blank feedback entries consume system resources unnecessarily, impacting system performance and scalability.
-
-**Root Cause Analysis:**
-
-Lack of Form Validation:
-
-The absence of form validation logic allows users to submit feedback without any input, resulting in blank entries.
-
-Oversight in User Input Handling:
-
-Incomplete handling of user input during the feedback submission process fails to account for empty submissions.
-
-**Resolution Steps:**
-
-Implement Form Validation:
-
-Introduce form validation logic to the feedback submission form to ensure that users cannot submit feedback without providing input.
-
-Provide User Guidance:
-
-Clearly communicate to users that feedback must be provided before submission through instructional prompts or error messages.
-
-Validate Feedback Content:
-
-Before saving a feedback submission, check for the presence of feedback content to prevent the creation of blank entries.
-
-Enhance User Interface:
-
-Improve the user interface design to guide users and encourage meaningful feedback submission, reducing the likelihood of empty entries.
-
-Test and Iterate:
-
-Conduct usability testing to evaluate the effectiveness of the implemented form validation and user guidance.
-Iterate on the feedback submission process based on user feedback and testing results to refine the user experience and ensure the 
-prevention of blank submissions.
-
-By implementing form validation and enhancing the user interface to guide users in providing meaningful feedback, 
-the system can prevent the creation of blank entries and maintain the integrity and usability of the feedback collection process.
-
-Issue 4
 --------
 The application experiences intermittent connectivity issues when accessing external APIs.
 
@@ -209,7 +99,7 @@ By enhancing network resilience, implementing robust error handling mechanisms, 
 developers can mitigate the impact of intermittent connectivity issues and improve the reliability and user experience of the 
 application when interacting with external APIs.
 
-Issue 5
+Issue 4
 ---------
 
 The application's search functionality returns irrelevant or inaccurate results, impairing user experience and utility.
